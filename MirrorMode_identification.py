@@ -10,6 +10,13 @@ from numpy import linalg as LA
 import scipy as sp
 from scipy.signal import argrelextrema
  
+##########################################################################
+# The script below is developed to identify mirror mode waves in the magnetic field data of a spacecraft. 
+# This version is for the B field data with 3s resolution of the Wind spacecraft.
+# The script is provided for general use and the criteria can be modified.
+# Please cite Ala-Lahti et al., (2018) AnnGeo, 36, 3, 793-808
+##########################################################################
+	
 #Shock parameters of studied ICME sheaths listed by Palmerio et al., (2016). Parameters taken from ipshocks.fi
 #B_down/B_up, theta_Bn, V_shock, M_A, ?, ?, |delta V| between down and up, Beta_upstream
 def Parameters(shock, tiedosto): 
