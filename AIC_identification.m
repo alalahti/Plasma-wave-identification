@@ -1,3 +1,9 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The script below is developed to identify Alfvén ion cyclotron waves in the magnetic field data of a spacecraft. 
+% This version is for the high-resolution B field data of the Wind spacecraft.
+% The script is provided for general use and the criteria can be modified.
+%Please cite Ala-Lahti et al., (2019) JGR, 124, 6, 3893-3909
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Preparing SheathData
 %Construct a matrix for studied events first three columns being the shock
 %theta, M_A, the number of mirror modes in the sheath; columns 20:22 are
